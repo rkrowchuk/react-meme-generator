@@ -7,13 +7,26 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+p {
+  font-size: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 550px;
+  padding: 25px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 .header {
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(to right, #672280 0%, #A626D3 100%);
   color: #fff;
   padding: 25px;
+  max-width: 550px;
 }
 
 .logo {
@@ -27,4 +40,35 @@ body {
 .logo img {
   width: 32px;
   margin-right: 5px;
+}
+
+button {
+  background: linear-gradient(to right, #672280 0%, #A626D3 100%);
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.1em;
+  margin-top: 15px;
+}
+
+.form-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-inputs input {
+  width: 240px;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;;
+  padding: 10px;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+
 }
