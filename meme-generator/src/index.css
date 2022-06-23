@@ -1,9 +1,30 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #672280 0%, #A626D3 100%);
+  color: #fff;
+  padding: 25px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20.75px;
+  font-weight: 700;
+  letter-spacing: -0.1em;
+}
+
+.logo img {
+  width: 32px;
+  margin-right: 5px;
 }
