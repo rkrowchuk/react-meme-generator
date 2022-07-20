@@ -70,5 +70,9 @@ button {
   font-family: "Karla", sans-serif;
   font-weight: 400;
   font-size: 12px;
+}
 
+.meme-image {
+  width: 100%;
+  margin-top: 20px;
 }
